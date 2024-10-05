@@ -1,2 +1,5 @@
 streamlit
 pycaret
+joblib
+pandas
+numpy
