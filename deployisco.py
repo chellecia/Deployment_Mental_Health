@@ -7,8 +7,10 @@ import streamlit as st
 import pickle
 import numpy as np
 from pycaret.classification import * 
+
+
 # Muat model
- 
+
 model_anxiety = load_model('model_anxiety')
 model_stress = load_model('model_stress')
 model_depression = load_model('model_depression')
